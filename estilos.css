@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-attachment: fixed;
+	background-image: url(body.png);
+	background-repeat: repeat;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+#contenedor {
+	display: table;
+	height: 100%;
+	width: 90%;
+	background-color: #FFF;
+	border-radius:10px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	border: 1px solid #999;
+	padding-top: 3%;
+}
+#banner {
+	background-image: url(portada.jpg);
+	background-repeat: no-repeat;
+	height: 80px;
+	width: 100%;
+	position: relative;
+	background-color: #F2F2F2;
+	border-top-width: 3px;
+	border-bottom-width: 3px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #D2D94D;
+	border-bottom-color: #D2D94D;
+}
+#botonera li a:hover, #botonera_interna li a:hover {
+	color: #5D3D17;
+	background-color: #EAEDA9;
+}
+#botonera, #botonera_interna {
+	height: auto;
+	width: 96%;
+	position: relative;
+}
+#pie {
+	background-color: #EAEDA9;
+	padding: 2%;
+	width: 96%;
+	position: relative;
+	font-size: 0.6em;
+	text-align: center;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #E52364;
+	border-radius:10px;
+}
+#pie a {
+	color: #E52364;
+	text-decoration: none;
+	font-weight: bold;
+}
+#botonera ul, #botonera_interna ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#botonera_interna {
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #D5DB5D;
+	border-bottom-color: #D5DB5D;
+}
+#contenido {
+	height: auto;
+	width: 96%;
+	position: relative;
+	background-image: url(rfern.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding-top: 150px;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	text-align: center;
+}
+
+#botonera li a {
+	background-image: url(flecha.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	display: block;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	font-weight: bold;
+	color: #666;
+	text-decoration: none;
+	padding-left: 4%;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCC;
+	border-bottom-color: #CCC;
+}
+#slogan {
+	float: right;
+	width: 50%;
+	position: relative;
+	margin-top: 3%;
+	padding-right: 3%;
+	text-align: right;
+	font-size: 0.7em;
+}
+.destacado {
+	font-weight: bold;
+	color: #E52364;
+}
+#logo {
+	height: 85px;
+	width: 97%;
+	margin-bottom: 3%;
+	position: relative;
+	padding-left: 3%;
+}
+#botonera_interna li a {
+	color: #666;
+	text-decoration: none;
+	display: inline-block;
+	width: 31%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	background-image: url(flecha2.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCC;
+	padding-left: 2%;
+	font-size: 0.7em;
+}
+.seleccionado {
+	background-color: #F2C8DC;
+}
+
+.borrar {
+	clear: both;
+}
+#contenido_contacto {
+	height: auto;
+	width: 96%;
+	position: relative;
+	background-image: url(snowbg.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	padding-top: 105px;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+}
+.campo_formu {
+	background-color: #EFF1BE;
+	width: 100%;
+	border: 1px dotted #F09;
+}
+.boton_formu {
+	background-color: #D2D94D;
+	width: 40%;
+	border: 1px solid #F09;
+	padding: 1%;
+	font-weight: bold;
+	text-transform: capitalize;
+	border-radius:10px;
+}
+#contenido_productos {
+	height: auto;
+	width: 96%;
+	position: relative;
+	background-image: url(menu.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	padding-top: 58px;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+}
+.productos {
+	float: left;
+	height: 170px;
+	width: 120px;
+	margin-right: 2%;
+	margin-left: 2%;
+	position: relative;
+	border: 1px solid #CCC;
+	margin-bottom: 3%;
+}
+
+.imagen_producto {
+	height: 120px;
+	width: 120px;
+}
+.texto_productos {
+	background-color: #EAEDA9;
+	text-align: center;
+	height: 40px;
+	width: 120px;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+
+nav {
+    padding: 1em;
+    font-family: Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background:  #EFF1BE;
+  }
+  nav li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+  nav li a:hover {
+    background: tomato;
+    color: white;
+  }
+  @media screen and (min-width: 480px) {
+    nav ul {
+      display: flex;
+      /*justify-content: center;*/
+    }
+    nav li{
+        flex-grow:1;
+        text-align:center;
+      }
+  } 
