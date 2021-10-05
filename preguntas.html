@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>EJEMPLO MAQUETACIÓN EN HTML5</title>
-<link rel="stylesheet" href="css/estilo.css">	
+	
 <link href="estilos.css" rel="stylesheet" type="text/css" />   
     
 </head>
@@ -12,12 +12,11 @@
 <body>
  
 
-
+<div id="contenedor">
         <!-- Cabecera -->
         <header>
-            <img src="Media/ejemplo-logotipo.gif" width="189" height="57" alt="logo"  /> 
-            <h1>EJEMPLO MAQUETACIÓN EN HTML5 - Maqueta #1</h1>
-          
+            <img src="img/logo.png" width="125" height="100" alt="logo"  /> 
+                  
         </header>
         <nav id="botonera">
             <ul>
@@ -28,10 +27,10 @@
             </ul>
           </nav>
         <!-- Contenido -->
-        <section>
+        <section id="contenido">
             
             <figure>
-                    <img src="Media/Koala.jpg" width="200" height="200" alt="foto"  />
+                    <img src="img/flora.jpg" width="200" height="200" alt="foto"  />
                     <figcaption>Figura: descipción foto</figcaption>
             </figure>
             
@@ -50,10 +49,12 @@
 
 
         <!-- Pie de pagina -->
-        <footer>
-                <a href="http://www.ejemplocodigo.com">www.ejemplocodigo.com</a>
+        <footer id="pie">
+			<adress>
+				<a href="mailto:v.nao@hotmail.com">ahi te veo!</a> /tel:<a href="tel:+01145554444"> 011 4555 4444</a> / Terrada 5385 - CABA
+			</adress>
         </footer>
 
-
+</div>
 </body>
 </html>
