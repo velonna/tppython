@@ -1,61 +1,69 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Sweet and Tweet</title>
+  <title>Hook Up</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="estilos.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-<link href="estilos.css" rel="stylesheet" type="text/css" />
-<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+
+
 </head>
 
 <body>
-<div id="contenedor">
-  <div id="logo"><a href="index.html"><img src="img/logo.png" width="125" height="100" border="0" /></a></div>
-  <nav id="botonera">
+  <div id="contenedor">
+   <div id="logo">
+   <a href="index.html"><img src="img/logo.png" width="125" height="100" border="0" /></a>
+   </div>
+  
+    <nav id="botonera">
     <ul>
-      <li><a href="empresa.html">Empresa</a></li>
-      <li><a href="productos.html">Productos</a></li>
-      <li><a href="preguntas.html">Preguntas</a></li>
+      <li><a href="empresa.html">Nosotros</a></li>
+      <li><a href="productos.html">Espacio</a></li>
+      <li><a href="preguntas.html">Ideas</a></li>
       <li><a href="#" class="seleccionado">Contacto</a></li>
-      <li class="borrar"></li>
     </ul>
   </nav>
-  <div id="contenido_contacto">
-    <form id="form1" name="form1" method="post" action="">
-      <table width="100%" border="0" align="center">
-        <tr>
-          <td>Nombre:</td>
-        </tr>
-        <tr>
-          <td><label>
-            <input name="textfield" type="text" class="campo_formu" id="textfield" />
-          </label></td>
-        </tr>
-        <tr>
-          <td>Email:</td>
-        </tr>
-        <tr>
-          <td><label>
-            <input name="textfield2" type="text" class="campo_formu" id="textfield2" />
-          </label></td>
-        </tr>
-        <tr>
-          <td>Consulta:</td>
-        </tr>
-        <tr>
-          <td><label>
-            <textarea name="textarea" cols="45" rows="5" class="campo_formu" id="textarea"></textarea>
-          </label></td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td><input name="button" type="submit" class="boton_formu" id="button" value="Enviar" /></td>
-        </tr>
-      </table>
-    </form>
+ 
+
+  <div id="contenido">
+        <!--Google map-->
+<div class="z-depth-1-half map-container-3">
+  <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="10"
+    ></iframe>
+</div>
+
+<!--Google Maps-->
+      <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-4 position-relative">
+            <label for="validationTooltip01" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+            
+          </div>
+          <div class="col-md-4 position-relative">
+            <label for="validationTooltip02" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+          
+          </div>
+          <div class="col-md-4 position-relative">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="col-md-4 position-relative">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+          </div>
+      </form>
+   
   </div>
+
   <div id="pie">
 	<adress>
   <a href="mailto:v.nao@hotmail.com">ahi te veo!</a> /tel:<a href="tel:+01145554444"> 011 4555 4444</a> / Terrada 5385 - CABA
