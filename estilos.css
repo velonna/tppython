@@ -3,12 +3,11 @@
 
 body {
 	background-attachment: fixed;
-	background-image: url(body.png);
+	background-image: url(./img/body.png);
 	background-repeat: repeat;
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	display: block;
     margin: 8px;
-	
+	font-family: "Sofia", sans-serif;
 }
 #contenedor {
 	display: table;
@@ -23,7 +22,7 @@ body {
 	padding-top: 3%;
 }
 #banner {
-	background-image: url(portada.jpg);
+	background-image: url(./img/portada.jpg);
 	background-repeat: no-repeat;
 	height: 80px;
 	width: 100%;
@@ -38,12 +37,14 @@ body {
 }
 #botonera li a:hover, #botonera_interna li a:hover {
 	color: #5D3D17;
+	font-family: "Open Sans", sans-serif;
 	background-color: #EAEDA9;
 }
 #botonera, #botonera_interna {
 	height: auto;
 	width: 96%;
 	position: relative;
+	font-family: "Open Sans", sans-serif;
 }
 #pie {
 	background-color: #EAEDA9;
@@ -80,7 +81,7 @@ body {
 	height: auto;
 	width: 96%;
 	position: relative;
-	background-image: url(rfern.png);
+	background-image: url(./img/rfern.png);
 	background-repeat: no-repeat;
 	background-position: right top;
 	
@@ -91,7 +92,7 @@ body {
 }
 
 #botonera li a {
-	background-image: url(flecha.png);
+	background-image: url(./img/flecha.png);
 	background-repeat: no-repeat;
 	background-position: right;
 	display: block;
@@ -135,7 +136,7 @@ body {
 	width: 31%;
 	padding-top: 3%;
 	padding-bottom: 3%;
-	background-image: url(flecha2.png);
+	background-image: url(./img/flecha2.png);
 	background-repeat: no-repeat;
 	background-position: right;
 	border-right-width: 1px;
@@ -155,7 +156,7 @@ body {
 	height: auto;
 	width: 96%;
 	position: relative;
-	background-image: url(snowbg.png);
+	background-image: url(./img/snowbg.png);
 	background-repeat: repeat-x;
 	background-position: top;
 	padding-top: 105px;
@@ -181,7 +182,7 @@ body {
 	height: auto;
 	width: 96%;
 	position: relative;
-	background-image: url(menu.png);
+	background-image: url(./img/menu.png);
 	background-repeat: repeat-x;
 	background-position: top;
 	padding-top: 58px;
