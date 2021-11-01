@@ -3,11 +3,12 @@
 
 body {
 	background-attachment: fixed;
-	background-image: url(./img/body.png);
+	background-image: url(./img/body1.png);
 	background-repeat: repeat;
 	display: block;
     margin: 8px;
 	font-family: "Sofia", sans-serif;
+	
 }
 #contenedor {
 	display: table;
@@ -22,7 +23,7 @@ body {
 	padding-top: 3%;
 }
 #banner {
-	background-image: url(./img/portada.jpg);
+	background-image: url(./img/colab.png);
 	background-repeat: no-repeat;
 	height: 80px;
 	width: 100%;
@@ -172,23 +173,26 @@ body {
 .boton_formu {
 	background-color: #D2D94D;
 	width: 40%;
-	border: 1px solid #F09;
+	border: 1px solid rgb(32, 115, 163);
 	padding: 1%;
 	font-weight: bold;
 	text-transform: capitalize;
 	border-radius:10px;
 }
 #contenido_productos {
-	height: auto;
-	width: 96%;
+	
 	position: relative;
-	background-image: url(./img/menu.png);
+	
 	background-repeat: repeat-x;
 	background-position: top;
 	padding-top: 58px;
 	padding-right: 2%;
 	padding-bottom: 2%;
 	padding-left: 2%;
+	display: flex;
+	flex-wrap: wrap;
+	
+
 }
 .productos {
 	float: left;
@@ -197,7 +201,7 @@ body {
 	margin-right: 2%;
 	margin-left: 2%;
 	position: relative;
-	border: 1px solid #CCC;
+	border: 1px solid rgb(74, 101, 151);
 	margin-bottom: 3%;
 }
 
@@ -260,6 +264,47 @@ nav {
 	nav ul {
 	  flex-direction: column;
 	}
-  
+
+
 	
-  }
+}
+.strech	{
+	width: 50%;
+}
+.parent {
+	text-align: center;
+	background: rgb(71, 109, 180);
+	height: 50px;
+	width: 100%;
+	
+	}
+
+	.child{
+		background-image: url(./img/ballenita2.png);
+		background-repeat:no-repeat;
+		
+		height: 100%;
+		width: 60%;
+		animation-name: move;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+	}
+
+	@keyframes move{
+		0%{
+			
+			transform: translateX(0);
+		}
+		33%{
+			
+			transform: translateX(100%);
+		}
+		66%{
+				background-image: url(./img/colab.png);
+			transform: translateX(100%) translateY(100%);
+		}
+		100%{
+	
+			transform: translateX(100%);
+		}
+	}
